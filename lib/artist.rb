@@ -20,7 +20,7 @@ def add_song_by_name(name)
 end
 
 def self.song_count
-  Song.artist.count {|song| song.artist == self}
+  songs.count
 end
 
 end
