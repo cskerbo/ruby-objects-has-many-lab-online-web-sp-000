@@ -19,7 +19,7 @@ class Author
     add_post(post)
   end
 
-  def self.count
+  def self.post_count
     Posts.all.count
   end
 
