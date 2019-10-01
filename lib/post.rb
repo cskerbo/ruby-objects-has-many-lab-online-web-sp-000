@@ -9,5 +9,6 @@ class Post
     @@all << self
   end
 
-
-  
+  def all
+    @@all
+  end
